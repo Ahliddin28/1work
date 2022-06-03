@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+  
+<body>
+  <!-- Navbar-section-starts -->
+  <nav>
+    <ul class="navbar">
+      <li class="flex"><i class="bx bx-home"></i> /Pages/Analyics<br>
+      <h4 class="mtl">Analytics</h4></li>
+      <li><i class="bx bx-menu" id="bar"></i></li>  
+      <li><br></li>  
+      <li>
+        
+        <div class="icons">
+          <input type="text" placeholder="search here">
+        <i class='bx bxs-user'></i><i class='bx bx-cog'></i><i class='bx bx-bell'></i>
+      </div></li>
+    </ul>
+  </nav>
+  <!-- Navbar-section-ends -->
+
+
+  <!-- First-section-starts -->
+  <div class="first-section">
+    <div class="values">
+      <div class="shadow"> 
+       <div class="shadow" id="minwidth"><bx class="bx bx-user"></bx></div> <div class="value"><h3>Bookings</h3><br>281</div>
+     <p class="coment">+55% than last week</p> </div>
+      <div class="shadow"> 
+        <div class="shadow" id="minwidth" style="background-color:red"><i class='bx bx-bar-chart' ></i></div> <div class="value"><h3>Today`s users</h3><br>2300</div>
+        <p class="coment">+3% than last week</p> </div>
+       <div class="shadow"> 
+        <div class="shadow" id="minwidth" style="background-color:green"><bx class="bx bx-store-alt"></bx></div> <div class="value"><h3>Pass through</h3><br>34k    </div>
+        <p class="coment">+1% than yesterday</p> </div>
+       <div class="shadow"> 
+        <div class="shadow" id="minwidth" style="background-color: blue;"><bx class="bx bx-user-plus"></bx></div> <div class="value"><h3>Followers</h3><br>+91</div>
+        <p class="coment">Just updated</p> </div>
+    </div>
+  </div>
+    <!-- First-section-ends -->
+
+
+
+
+    <!-- Sidebar-section-starts -->
+  <nav class="sidebar close">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="img/Vector.png" alt="logo">
+        </span>
+        <div class="text header-text">
+          <span class="name">
+            Material Dashboard 2 PRO
+          </span>
+        </div>
+      </div>
+      <i class="bx bx-chevron-right toggle"></i>
+    </header>
+    <div class="menu-bar">
+      <div class="menu">
+        <ul class="menu-links">
+        <li class="search-box">
+         <img src="img/Image.png" alt="">
+          <span class="text nav-text">Brooklyn Alice      <i class='bx bx-down-arrow-alt' id="openBtn"></i></span>
+          <div class="text"></div>
+         </li>
+           <li class="nav-link"  id="indr1">
+            <a href="#">
+              <i class='bx bxs-dashboard'><span class="text ">Dashboard</span></i>
+            </a>
+          </li>
+          <li class="nav-link"  id="indr2">
+            <a href="#">
+              <i class='bx bx-traffic-cone'><span class="text ">Analytics</span></i>
+            </a>
+          </li> <li class="nav-link"  id="indr3">
+            <a href="#">
+              <i class='bx bxl-stripe'><span class="text ">Smart house</span></i>
+            </a>
+          </li>
+          <li class="nav-link" id="mt">
+            <a href="#">
+              <i class='bx bxs-notepad icon '></i>
+            <span class="text nav-text">Pages</span></a>
+          </li> <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-bell icon' ></i>
+            <span class="text nav-text">Application</span></a>
+          </li> <li class="nav-link">
+            <a href="#">
+              <i class='bx bxl-xing icon'></i>
+            <span class="text nav-text">Eccomerce</span></a>
+          </li> <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-heart icon ' ></i>
+            <span class="text nav-text">Authentication</span></a>
+          </li> <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wallet icon' ></i>
+            <span class="text nav-text">Error</span></a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wallet icon' ></i>
+            <span class="text nav-text"> Error 404</span></a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wallet icon' ></i>
+            <span class="text nav-text"> Error 500</span></a>
+          </li>
+         </ul>
+      </div>
+      <div class="bottom-content">
+        <li class="">
+          <a href="#">
+            <i class='bx bx-log-out icon' ></i>
+          <span class="text nav-text">Basic</span></a>
+        </li>
+        <li class="">
+          <a href="#">
+            <i class='bx bx-log-out icon' ></i>
+          <span class="text nav-text">Components</span></a>
+        </li><li class="">
+          <a href="#">
+            <i class='bx bx-log-out icon' ></i>
+          <span class="text nav-text">Changelog</span></a>
+        </li>
+      </div>
+    </div>
+  </nav>
+ <!-- Sidebar-section-ends -->
+
+
+
+
+ <!-- Charts-section-starts -->
+  <div class="boxses">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         <div class="shadow">
+          <div class="shadow" id="min">
+            <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+                <h4>Website Views</h4>
+                <p>Last Campaign Performance</p>
+                <p>campaign sent 2 days ago</p>
+         </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow">
+               <div class="shadow" id="min">
+                 <canvas id="myChart2" width="400" height="400"></canvas>
+                     </div>
+                     <h4>Website Views</h4>
+                     <p>Last Campaign Performance</p>
+                     <p>campaign sent 2 days ago</p>
+              </div>
+                 </div>             
+        <div class="swiper-slide"> 
+         <div class="shadow">
+          <div class="shadow" id="min">
+            <canvas id="myChart3" width="400" height="400"></canvas>
+          </div>
+          <h4>Website Views</h4>
+          <p>Last Campaign Performance</p>
+          <p>campaign sent 2 days ago</p>
+         </div></div>
+      <div class="swiper-pagination"></div>
+  </div>
+<!-- Charts-section-ends -->
+
+
+
+
+
+
+<!-- Comments-section-starts -->
+    <div class="comments shadow">
+      <h3>Top  Selling Products</h3>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Value</th>
+          <th>ADS SPENT</th>
+          <th>REFUNDS</th>
+        </tr>
+        <tr>
+          <td class="flex" ><img src="img/image - product (1).png" alt=""><b> Nike v22 Running</b><br>8.232 orders</td>
+          <td>$130.992</td>
+          <td>$9.500</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td class="flex"><img src="img/image - product (2).png" alt=""><b>Business Kit </b><br>8.232 orders</td>
+          <td>	$80.250</td>
+          <td>$9.500</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td class="flex" colspan="20"><img src="img/image - product (2).png" alt=""><b> Black Chair</b><br>8.232 orders</td>
+          <td>$40.600</td>
+          <td>$9.500</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td class="flex" colspan="20"><img src="img/image - product (3).png" alt=""><b>Wireless Charger</b><br>8.232 orders</td>
+          <td>$91.300</td>
+          <td>$9.500</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td class="flex" colspan="20"><img src="img/image - product.png" alt=""><b> Wireless Charger</b><br>8.232 orders</td>
+          <td>$140.925</td>
+          <td>$9.500</td>
+          <td>13</td>
+        </tr>
+       
+      </table>
+    </div>
+<!-- Comments-section-ends -->
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
